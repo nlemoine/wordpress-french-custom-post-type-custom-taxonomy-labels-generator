@@ -12,7 +12,7 @@ Sont plus ou moins gérés :
 - le pluriel via https://github.com/RosaeNLG/rosaenlg/tree/master/packages/rosaenlg-pluralize-fr
 - les élisions
 
-Le français étant une langue avec de nombreuses règles et exceptions 😅, il est possible que le résultat ne soit pas toujours correct à 100%. Ouvrez un ticket si vous tombez un cas non gérés.
+Le français étant une langue avec de nombreuses règles et exceptions 😅, il est possible que le résultat ne soit pas toujours correct à 100%. Ouvrez un ticket si vous tombez un cas non géré.
 
 ## Exemple
 
