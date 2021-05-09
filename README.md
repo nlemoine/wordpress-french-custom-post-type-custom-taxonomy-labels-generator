@@ -16,4 +16,4 @@ Le français étant une langue avec de nombreuses règles et exceptions 😅, il
 
 ## Exemple
 
-https://nlemoine.github.io/wordpress-french-custom-post-type-custom-taxonomy-labels-generator/#?type=post-type&name=s%C3%A9rie+TV&domain=mon-theme
+https://nlemoine.github.io/wordpress-french-custom-post-type-custom-taxonomy-labels-generator/#?type=post-type&domain=troie&name=cheval
