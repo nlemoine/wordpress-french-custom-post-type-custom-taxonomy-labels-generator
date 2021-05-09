@@ -13,3 +13,7 @@ Sont plus ou moins gérés :
 - les élisions
 
 Le français étant une langue avec de nombreuses règles et exceptions 😅, il est possible que le résultat ne soit pas toujours correct à 100%. Ouvrez un ticket si vous tombez un cas non gérés.
+
+## Exemple
+
+https://nlemoine.github.io/wordpress-french-custom-post-type-custom-taxonomy-labels-generator/#?type=post-type&name=s%C3%A9rie+TV&domain=mon-theme
