@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunklabel_generator=self.webpackChunklabel_generator||[]).push([[3140],{7761:function(e){function a(e){e.languages.hsts={directive:{pattern:/\b(?:max-age=|includeSubDomains|preload)/,alias:"keyword"},safe:{pattern:/\b\d{8,}\b/,alias:"selector"},unsafe:{pattern:/\b\d{1,7}\b/,alias:"function"}}}e.exports=a,a.displayName="hsts",a.aliases=[]}}]);
+//# sourceMappingURL=react-syntax-highlighter_languages_refractor_hsts.e8753c50.chunk.js.map
