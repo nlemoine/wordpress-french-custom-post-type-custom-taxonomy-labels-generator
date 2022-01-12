@@ -94,22 +94,26 @@ const getLabelName = (name, labelObject, gender = null) => {
   firstWord = labelObject.hasOwnProperty("plural") && labelObject.plural ? plural(firstWord) : firstWord;
 
   let label = labelObject.label;
+  const labelHasGenders = typeof label === "object" && label !== null;
 
   // Handle gender
-  if (typeof label === "object" && label !== null) {
+  if (labelHasGenders) {
     if (gender === "") {
       gender = getGender(firstWordSingular) ?? "f";
     }
-
     label = label[gender];
+  }
 
-    // Handle elision
-    if (labelObject.hasOwnProperty("elision") && ["a", "e", "i", "o", "u", "y", "h"].includes(Diacritics.clean(firstWord.charAt(0).toLowerCase()))) {
-      const search = labelObject.elision.search[gender];
-      if (search !== "nouvelle") {
-        const regex = new RegExp(search, "i");
-        label = capitalize(label.replace(regex, labelObject.elision.replace));
-      }
+  // Handle elision
+  if (
+    labelObject.hasOwnProperty("elision")
+    && labelObject.elision.hasOwnProperty('search')
+    && ["a", "e", "i", "o", "u", "y", "h"].includes(Diacritics.clean(firstWord.charAt(0).toLowerCase()))
+  ) {
+    const search = labelHasGenders ? labelObject.elision.search[gender] : labelObject.elision.search;
+    if (search !== "nouvelle") {
+      const regex = new RegExp(search, "i");
+      label = capitalize(label.replace(regex, labelObject.elision.replace));
     }
   }
 

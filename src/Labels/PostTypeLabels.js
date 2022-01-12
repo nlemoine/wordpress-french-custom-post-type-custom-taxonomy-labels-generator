@@ -202,28 +202,23 @@ const PostTypeLabels = {
       m: "%1$s mis à jour.",
     },
   },
-  // item_link: {
-  //     label: {
-  //         f: 'Lien de la %1$s',
-  //         m: 'Lien du %1$s',
-  //     },
-  //     fn: '_x',
-  //     context: 'navigation link block title',
-  //     elision: {
-  //         search: ['du ', 'la '],
-  //         replace: 'de l’',
-  //     },
-  // },
-  // item_link_description: {
-  //     label: {
-  //         f: 'Un lien vers la %1$s',
-  //         m: 'Un lien vers le %1$s',
-  //     },
-  //     elision: {
-  //         search: ['le ', 'la '],
-  //         replace: 'l’',
-  //     },
-  // },
+  item_link: {
+    label: "Lien de %1$s",
+    elision: {
+      search: "de ",
+      replace: "d’",
+    },
+    fn: "_x",
+    context: "navigation link block title",
+  },
+  item_link_description: {
+    label: {
+      f: "Un lien vers une %1$s",
+      m: "Un lien vers un %1$s",
+    },
+    fn: "_x",
+    context: "navigation link block description",
+  },
 };
 
 export default PostTypeLabels;

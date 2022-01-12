@@ -27,6 +27,7 @@ const TaxonomyLabels = {
       f: "Toutes les %1$s",
       m: "Tous les %1$s",
     },
+    plural: true,
   },
   parent_item: {
     label: {
@@ -153,23 +154,23 @@ const TaxonomyLabels = {
     label: "&larr; Aller aux %1$s",
     plural: true,
   },
-  // item_link: {
-  //   label: "Tag Link",
-  //   fn: "_x",
-  //   context: "navigation link block title",
-  // },
-  // item_link_description: {
-  //   label: {
-  //     f: "Un lien vers la %1$s",
-  //     m: "Un lien vers le %1$s",
-  //   },
-  //   elision: {
-  //     search: ["le ", "la "],
-  //     replace: "l’",
-  //   },
-  //   fn: "_x",
-  //   context: "navigation link block description",
-  // },
+  item_link: {
+    label: "Lien de %1$s",
+    elision: {
+      search: "de ",
+      replace: "d’",
+    },
+    fn: "_x",
+    context: "navigation link block title",
+  },
+  item_link_description: {
+    label: {
+      f: "Un lien vers une %1$s",
+      m: "Un lien vers un %1$s",
+    },
+    fn: "_x",
+    context: "navigation link block description",
+  },
 };
 
 export default TaxonomyLabels;
