@@ -145,7 +145,7 @@ const PostTypeLabels = {
       replace: "cet ",
     },
   },
-  feature_image: {
+  featured_image: {
     label: "Image à la une",
   },
   set_featured_image: {
