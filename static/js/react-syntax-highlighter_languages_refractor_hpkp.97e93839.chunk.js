@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunklabel_generator=self.webpackChunklabel_generator||[]).push([[6749],{5727:function(e){function a(e){e.languages.hpkp={directive:{pattern:/\b(?:(?:includeSubDomains|preload|strict)(?: |;)|pin-sha256="[a-zA-Z\d+=/]+"|(?:max-age|report-uri)=|report-to )/,alias:"keyword"},safe:{pattern:/\b\d{7,}\b/,alias:"selector"},unsafe:{pattern:/\b\d{1,6}\b/,alias:"function"}}}e.exports=a,a.displayName="hpkp",a.aliases=[]}}]);
-//# sourceMappingURL=react-syntax-highlighter_languages_refractor_hpkp.97e93839.chunk.js.map
