@@ -4,17 +4,17 @@
   "private": true,
   "homepage": "https://nlemoine.github.io/wordpress-french-custom-post-type-custom-taxonomy-labels-generator",
   "dependencies": {
-    "@material-ui/core": "^4.11.4",
-    "@material-ui/icons": "^4.11.2",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
     "diacritic": "^0.0.2",
-    "french-words-gender-lefff": "^2.1.2",
+    "french-words-gender-lefff": "^2.2.1",
     "gh-pages": "^3.2.3",
-    "react": "^17.0.2",
+    "react": "^18.0.0",
     "react-copy-to-clipboard": "^5.0.4",
-    "react-dom": "^17.0.2",
+    "react-dom": "^18.0.0",
     "react-scripts": "5.0.0",
-    "react-syntax-highlighter": "^15.4.5",
-    "rosaenlg-pluralize-fr": "^2.1.2",
+    "react-syntax-highlighter": "^15.5.0",
+    "rosaenlg-pluralize-fr": "^2.2.1",
     "sprintf-js": "^1.1.2",
     "use-hash-param": "^0.2.4"
   },
@@ -45,6 +45,6 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.2"
+    "autoprefixer": "^10.4.4"
   }
 }
