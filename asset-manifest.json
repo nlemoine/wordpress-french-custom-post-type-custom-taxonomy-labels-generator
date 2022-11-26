@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/wordpress-french-custom-post-type-custom-taxonomy-labels-generator/static/js/main.b08cfa62.js",
+    "main.js": "/wordpress-french-custom-post-type-custom-taxonomy-labels-generator/static/js/main.09f03571.js",
     "react-syntax-highlighter/refractor-core-import.js": "/wordpress-french-custom-post-type-custom-taxonomy-labels-generator/static/js/react-syntax-highlighter/refractor-core-import.9696354f.chunk.js",
     "react-syntax-highlighter_languages_refractor_abap.js": "/wordpress-french-custom-post-type-custom-taxonomy-labels-generator/static/js/react-syntax-highlighter_languages_refractor_abap.d586e5e5.chunk.js",
     "react-syntax-highlighter_languages_refractor_abnf.js": "/wordpress-french-custom-post-type-custom-taxonomy-labels-generator/static/js/react-syntax-highlighter_languages_refractor_abnf.be006d6b.chunk.js",
@@ -278,7 +278,7 @@
     "react-syntax-highlighter_languages_refractor_yang.js": "/wordpress-french-custom-post-type-custom-taxonomy-labels-generator/static/js/react-syntax-highlighter_languages_refractor_yang.7e53827f.chunk.js",
     "react-syntax-highlighter_languages_refractor_zig.js": "/wordpress-french-custom-post-type-custom-taxonomy-labels-generator/static/js/react-syntax-highlighter_languages_refractor_zig.554bf412.chunk.js",
     "index.html": "/wordpress-french-custom-post-type-custom-taxonomy-labels-generator/index.html",
-    "main.b08cfa62.js.map": "/wordpress-french-custom-post-type-custom-taxonomy-labels-generator/static/js/main.b08cfa62.js.map",
+    "main.09f03571.js.map": "/wordpress-french-custom-post-type-custom-taxonomy-labels-generator/static/js/main.09f03571.js.map",
     "refractor-core-import.9696354f.chunk.js.map": "/wordpress-french-custom-post-type-custom-taxonomy-labels-generator/static/js/react-syntax-highlighter/refractor-core-import.9696354f.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abap.d586e5e5.chunk.js.map": "/wordpress-french-custom-post-type-custom-taxonomy-labels-generator/static/js/react-syntax-highlighter_languages_refractor_abap.d586e5e5.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abnf.be006d6b.chunk.js.map": "/wordpress-french-custom-post-type-custom-taxonomy-labels-generator/static/js/react-syntax-highlighter_languages_refractor_abnf.be006d6b.chunk.js.map",
@@ -557,6 +557,6 @@
     "react-syntax-highlighter_languages_refractor_zig.554bf412.chunk.js.map": "/wordpress-french-custom-post-type-custom-taxonomy-labels-generator/static/js/react-syntax-highlighter_languages_refractor_zig.554bf412.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.b08cfa62.js"
+    "static/js/main.09f03571.js"
   ]
 }
