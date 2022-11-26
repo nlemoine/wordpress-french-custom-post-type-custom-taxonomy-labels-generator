@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
+import { createTheme, ThemeProvider } from "@material-ui/core/styles";
 import { AppBar, Snackbar, Typography, Box, CssBaseline, Grid, Container, Button, TextField, FormControl, Radio, RadioGroup, FormControlLabel } from "@material-ui/core";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { PrismAsyncLight as SyntaxHighlighter } from "react-syntax-highlighter";
@@ -12,7 +12,7 @@ import TaxonomyLabels from "./Labels/TaxonomyLabels";
 
 const primaryColor = "#1c8bbf";
 
-const theme = createMuiTheme({
+const theme = createTheme({
   background: "#1a1a1a",
   palette: {
     type: "dark",
