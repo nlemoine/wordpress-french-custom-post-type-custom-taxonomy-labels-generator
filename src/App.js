@@ -112,7 +112,7 @@ export default function App() {
                   value={name}
                   variant="outlined"
                   placeholder="Article"
-                  helperText="Renseigner un nom au singulier"
+                  helperText="Renseigner un nom au singulier et en minuscule"
                   InputLabelProps={{
                     shrink: true,
                   }}
